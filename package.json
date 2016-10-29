@@ -4,7 +4,7 @@
   "description": "Angular ES6 boilerplate using ES6",
   "main": "index.js",
   "scripts": {
-    "build": "webpack .",
+    "build": "webpack app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kakul Gupta <kakul.gupta009@gmail.com>",
