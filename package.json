@@ -1,0 +1,33 @@
+{
+  "name": "kg-angular-es6-webpack",
+  "version": "1.0.0",
+  "description": "Angular ES6 boilerplate using ES6",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kakul Gupta <kakul.gupta009@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.16.0",
+    "css-loader": "^0.23.0",
+    "eslint": "^2.9.0",
+    "file-loader": "^0.8.5",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.4.2",
+    "resolve-url-loader": "^1.4.3",
+    "sass-lint": "^1.7.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  }
+}
