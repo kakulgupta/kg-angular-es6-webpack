@@ -4,8 +4,7 @@
   "description": "Angular ES6 boilerplate using ES6",
   "main": "index.js",
   "scripts": {
-    "build": "webpack app/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server app/index.js --hot --inline"
   },
   "author": "Kakul Gupta <kakul.gupta009@gmail.com>",
   "license": "ISC",
@@ -28,6 +27,7 @@
   },
   "dependencies": {
     "angular": "^1.5.8",
-    "angular-ui-router": "^0.3.1"
+    "angular-ui-router": "^0.3.1",
+    "webpack-dev-server": "^1.16.2"
   }
 }

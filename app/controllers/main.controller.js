@@ -5,9 +5,4 @@ export default class MainCtrl {
     this.testVar = 'main controller';
   }
 
-  test() {
-    let vm = this;
-    console.log('Main Controller test: ',vm.testVar);
-  }
-
 }
